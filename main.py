@@ -43,6 +43,7 @@ Cool functions:
     return x*y&0xff
 
     return ((x//y*~y)<<3)&0xff
+    y//x-x*x+x//x-x*y//y+y*~y//x*x+~x+y+x-x//~x-y//y+y+y+y+y
 
 """
 

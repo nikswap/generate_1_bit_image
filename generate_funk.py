@@ -3,8 +3,11 @@ import random
 operators = ['*','//','+','-','~']
 vars = ['x','y']
 
+FMIN=2
+FMAX=5
+
 def get_a_funk():
-    no_of_ops = random.randint(2,10)
+    no_of_ops = random.randint(FMIN,FMAX)
     res = []
     res2 = ''
     for i in range(no_of_ops):
