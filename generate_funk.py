@@ -1,6 +1,6 @@
 import random
 
-operators = ['*','//','+','-','~']
+operators = ['*','//','+','-','~','%']
 vars = ['x','y']
 
 FMIN=2
