@@ -32,7 +32,7 @@ def get_byte_given_index(i):
         y = 1
     if x == 0:
         x = 1
-    return eval(F)&0xff
+    return int(eval(F))&0xff
     #return ((x//y*~y)<<3)&0xff + ((y//x*~x)<<3)&0xff
     #return random.choice([f1,f2,f3,f4,f5])(x,y)
 

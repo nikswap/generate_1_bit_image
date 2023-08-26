@@ -1,6 +1,6 @@
 import random
 
-operators = ['*','//','+','-','~','%']
+operators = ['*','//','+','-','~','%','**']
 vars = ['x','y']
 
 FMIN=2
@@ -35,7 +35,7 @@ def get_a_funk():
         else:
             res2 += res[i]+op+res[i+1]+op2
         
-    if res2[-1] == '/':
+    if res2[-1] == '/' or res2.endswith('**'):
         res2 = res2[:-1]
     return res2[:-1]
 
